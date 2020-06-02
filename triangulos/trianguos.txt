@@ -1,0 +1,7 @@
+1 "ingresar angulos" 
+2 A,B,C
+3 suma= A+B+C;
+4 if suma==180
+   "la suma de los angulos es valida"
+ else
+   "la suma de los angulos es invalida"

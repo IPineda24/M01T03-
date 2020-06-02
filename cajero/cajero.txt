@@ -1,0 +1,29 @@
+1 ingresar producto nombre de producto
+2 producto;
+3ingresar precio
+4 precio;
+5 if lleva sombrero
+   precio-=5 (continua al paso 6)
+    else
+      no hace descuento (continua al paso 6)
+
+6 if producto es nuevo
+       no aplica ningun descuento (termina)
+else
+ if es sabdo ││ domingo
+        if producto no tiene promocion
+           descuento=  precio-(precio*0.10);
+        else 
+            no se le aplica el 10% de descuento (avanza al paso 7)
+  else  
+ 7 if preducto es categoria de autos
+        if precio<100
+           descuento=precio-(precio*0.05)
+        else
+	  no hay descuento(avanza paso 8)
+  else    
+    8 if precio>100
+       descuento= precio-(precio*0.03);
+   
+     else
+       no se le aplica

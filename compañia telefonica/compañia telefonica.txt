@@ -1,0 +1,16 @@
+1 "ingresar total de minutos"
+2 minutos
+3 si minuto>400
+      total=(minutos*0.27)-10;
+      mostrar total
+   sino
+4 si minuto>200
+        total=(minutos*0.30)-5
+       mostrar total
+   sino
+5 si minuto>100
+     total=minutos*0.40
+         mostrar total
+ sino
+       total=minutos*0.45
+            mostrar total

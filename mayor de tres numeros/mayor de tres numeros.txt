@@ -1,0 +1,8 @@
+1 "mayor de tres numeros"
+2 "introducir variables" A,B,C
+3 if A>B
+    if A>C
+	 A "es el mayor"
+4 else if B>C
+   B es el mayor
+     else C es el mayor

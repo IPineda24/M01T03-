@@ -1,0 +1,13 @@
+1 igresar año
+2 variable year;
+3 si year%4 == 0;
+     si year%100==0;
+         si year%400 ==0;
+           "es un año bisiesto"
+	 sino
+	   "no es un año bisiesto"
+     sino
+      "es un año bisiesto"
+       
+  sino
+   "no es bisiesto"
